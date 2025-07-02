@@ -1,0 +1,12 @@
+modules:
+  - type: dnf
+    repos:
+      copr:
+        - yuezk/globalprotect-openconnect
+    install:
+      packages:
+        - globalprotect-openconnect
+  - type: default-flatpaks
+    system:
+      install:
+        - com.microsoft.Edge
